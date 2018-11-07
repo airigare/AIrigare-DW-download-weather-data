@@ -1,6 +1,6 @@
-# CF Sample App Python
+# download-weather-data
 
-A sample [Flask](http://flask.pocoo.org/) application to deploy to Cloud Foundry which works out of the box.
+App to download the actual weather data from MeteoSuisse (https://www.meteoschweiz.admin.ch/home.html?tab=overview)
 
 ## Run locally
 
@@ -16,5 +16,5 @@ A sample [Flask](http://flask.pocoo.org/) application to deploy to Cloud Foundry
 ## Run in the cloud
 
 1. Install the [cf CLI](https://github.com/cloudfoundry/cli#downloads)
-1. Run `cf push downloadActualWeatherMeteoSuisse -m 128M -n Airigare -u none`
+1. Run `cf push download-weather-data -m 128M -n download-weather-data -u none`
 1. Visit the given URL
